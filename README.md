@@ -2,13 +2,7 @@
 
 This project aims to use k-means and Agglomerative clustering to segment customers into different groups based on their characteristics and purchasing habits. The goal is to understand the similarities and differences between the customer segments, which can help inform marketing strategies and target specific groups of customers.
 
-About Dataset
-
-dataset-link
-
-Context
-
-Problem Statement
+## Problem Statement
 
 Customer Personality Analysis is a detailed analysis of a company’s ideal customers. It helps a business to better understand its customers and makes it easier for them to modify products according to the specific needs, behaviors and concerns of different types of customers.
 
@@ -16,7 +10,7 @@ Customer personality analysis helps a business to modify its product based on it
 
 Content
 
-Attributes
+## Attributes
 
 People
 
@@ -57,7 +51,7 @@ Data Preprocessing
 
 Import the necessary libraries and load the dataset into a Pandas DataFrame.
 
-Handle missing values:
+## Handle missing values:
 
 Identify any missing values in the dataset.
 Decide on a strategy for handling missing values (e.g., dropping rows with missing values, imputing values using the mean or median). Here I am dropping using data.dropna().
@@ -72,15 +66,15 @@ Additionally, I will create a feature called Is_Parent that indicates whether a 
 Finally, I will create three categories in the Education column by simplifying its value counts. This will make it easier to analyze and compare the education levels of different customers.
 After creating these new features, I will drop any redundant columns that are no longer needed.
 
-Label Encoder
+## Label Encoder
 
 To preprocess the data for analysis, we will first convert any categorical features into numeric form using label encoding. Next, we will scale the features using the standard scaler to ensure that they are on the same scale. To improve the efficiency of the analysis, we can also create a subset of the data by selecting only a portion of the features to use. This process of dimensionality reduction can help improve the accuracy and efficiency of the analysis.
 
-PCA (Principle Component Analysis)
+## PCA (Principle Component Analysis)
 
 I will perform dimensionality reduction on the chosen features. This will involve reducing the number of features in the data set. By reducing the dimensions to 3, it will be easier to plot the data and observe any patterns or trends in the distribution of the features. I will then create a plot of the reduced data-frame to analyze the results of the dimensionality reduction.
 
-Clustering
+## Clustering
 
 To perform clustering on the data, I will use a method called Agglomerative clustering on the dataset that has been reduced to three dimensions. Agglomerative clustering is a type of hierarchical clustering that involves successively merging individual examples into clusters until the desired number of clusters is reached.
 
@@ -91,19 +85,16 @@ Applying Agglomerative Clustering to the data to create the clusters.
 Visualizing the resulting clusters using a scatter plot.
 The Elbow Method is a technique used to determine the optimal number of clusters to form by plotting the sum of squared distances for each possible number of clusters and identifying the point of inflection, or "elbow," on the curve. This helps to identify the optimal number of clusters by choosing the number of clusters that minimizes the sum of squared distances. Once the optimal number of clusters has been determined, Agglomerative Clustering is applied to the data to create the clusters. Finally, the resulting clusters can be examined using a scatter plot to visualize the distribution of the data within each cluster.
 
-Elbow Method Visualization 
+## Elbow Method Visualization 
 
 Elbow Method Visualization
 
 Based on the results of the Elbow Method, it appears that four clusters will be the optimal number for this dataset. Now, we will fit the Agglomerative Clustering model to the data to obtain the final clusters. This involves applying the Agglomerative Clustering algorithm to the data using the determined number of clusters. The resulting clusters will represent groups of data points that are similar to one another in some way.
 
-Clusters formed after Agglomerative Clustering
 
-Clusters formed after Agglomerative Clustering
+## Result
 
-Result
-
-Below shows 4 clusters:
+### Below shows 4 clusters:
 
 Cluster 0: It appears that the group being described consists of relatively older parents who have a family with a maximum of four members and at least two members. Many of these parents have a teenager at home, and some of them may be single parents. However, it is important to note that this is only a conclusion based on the information provided and may not be accurate in all cases. It is important to verify and confirm any information before making conclusions or decisions based on it.
 
