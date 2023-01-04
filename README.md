@@ -87,7 +87,9 @@ The Elbow Method is a technique used to determine the optimal number of clusters
 
 ## Elbow Method Visualization 
 
-Elbow Method Visualization
+Elbow Method Visualization\
+
+![alt text](https://github.com/wrvarun-96/Customer-Segmentation-Clustering/blob/main/Output/Elbow%20Curve.png)
 
 Based on the results of the Elbow Method, it appears that four clusters will be the optimal number for this dataset. Now, we will fit the Agglomerative Clustering model to the data to obtain the final clusters. This involves applying the Agglomerative Clustering algorithm to the data using the determined number of clusters. The resulting clusters will represent groups of data points that are similar to one another in some way.
 
@@ -96,7 +98,7 @@ Based on the results of the Elbow Method, it appears that four clusters will be 
 
 ### Below shows 4 clusters:
 
-![alt text](https://github.com/wrvarun-96/Customer-Segmentation-Clustering/blob/main/Output/Elbow%20Curve.png)
+![alt text](https://github.com/wrvarun-96/Customer-Segmentation-Clustering/blob/main/Output/Result.png)
 
 Cluster 0: It appears that the group being described consists of relatively older parents who have a family with a maximum of four members and at least two members. Many of these parents have a teenager at home, and some of them may be single parents. However, it is important to note that this is only a conclusion based on the information provided and may not be accurate in all cases. It is important to verify and confirm any information before making conclusions or decisions based on it.
 
