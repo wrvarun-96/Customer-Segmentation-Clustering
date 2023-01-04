@@ -96,6 +96,8 @@ Based on the results of the Elbow Method, it appears that four clusters will be 
 
 ### Below shows 4 clusters:
 
+![alt text](outputa/Elbow curve.png)
+
 Cluster 0: It appears that the group being described consists of relatively older parents who have a family with a maximum of four members and at least two members. Many of these parents have a teenager at home, and some of them may be single parents. However, it is important to note that this is only a conclusion based on the information provided and may not be accurate in all cases. It is important to verify and confirm any information before making conclusions or decisions based on it.
 
 Cluster 1: It appears that the group being described consists of non-parents who have a maximum of two members in their families. The majority of this group is made up of couples, rather than single individuals. The members of this group have a wide range of ages and are part of a high-income group. However, it is important to note that this is only a conclusion based on the information provided and may not be accurate in all cases. It is important to verify and confirm any information before making conclusions or decisions based on it.
